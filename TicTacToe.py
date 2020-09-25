@@ -82,8 +82,6 @@ while True:
 
     while game_on:
         if turn == 'Player 1':
-            # Player1's turn.
-
             display_game_board(gameBoard)
             position = player_choice(gameBoard, turn)
             place_symbol(gameBoard, player1_marker, position)
